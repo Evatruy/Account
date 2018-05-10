@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="common_width_w20">10dip</dimen>
+    <dimen name="font_size_f28">18sp</dimen>
+    <dimen name="pie_chart_text1_size">20sp</dimen>
+    <dimen name="pie_chart_text2_size">28sp</dimen>
+    <!-- 头部 和 底部的高度 -->
+    <dimen name="header_height">48dp</dimen>
+    <dimen name="footer_height">56dp</dimen>
+    <!-- 内容padding和表格margin -->
+    <dimen name="content_padding">4dp</dimen>
+    <dimen name="table_margin">4dp</dimen>
+
+
+    <dimen name="global_dialog_padding">15.0dip</dimen>
+    <dimen name="text_regular_primary_size">14.0dip</dimen>
+    <dimen name="text_large_primary_size">16.0dip</dimen>
+    <dimen name="text_large_secondary_size">12.0dip</dimen>
+    <dimen name="space_8">8dip</dimen>
+    <dimen name="global_padding">8.0dip</dimen>
+</resources>

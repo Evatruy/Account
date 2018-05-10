@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lixin.account.ucost.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/background" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/radio_gp_tab"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/background"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_btn_detail"
+            style="@style/tab_menu_style"
+            android:drawableTop="@drawable/nav_btn_detail"
+            android:text="@string/tab_detail" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_chart"
+            style="@style/tab_menu_style"
+            android:drawableTop="@drawable/nav_btn_chart"
+            android:text="@string/tab_chart" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_me"
+            style="@style/tab_menu_style"
+            android:drawableTop="@drawable/nav_btn_me"
+            android:text="@string/tab_mine" />
+    </RadioGroup>
+
+</LinearLayout>

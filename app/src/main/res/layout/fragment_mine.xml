@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_sub_item_bg_normal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_me_user"
+        style="@style/me_ll_style"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_user_photo"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/me_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/person_center"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_data_export"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_export" />
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="@string/export_data" />
+
+        <ImageView style="@style/image_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_reminder"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_clock"/>
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="记账提醒"/>
+
+        <ImageView
+            style="@style/image_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_share"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_share" />
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="@string/onekey_share" />
+
+        <ImageView style="@style/image_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_about"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_about" />
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="@string/about_us" />
+
+        <ImageView style="@style/image_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_common_question"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/ic_question" />
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="@string/common_question" />
+
+        <ImageView style="@style/image_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_me_init"
+        style="@style/me_ll_style">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/btn_delete_gray_n" />
+
+        <TextView
+            style="@style/me_text_style"
+            android:text="@string/init" />
+    </LinearLayout>
+</LinearLayout>
